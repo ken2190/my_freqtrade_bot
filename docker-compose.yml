@@ -24,5 +24,9 @@ services:
       trade
       --logfile /freqtrade/user_data/logs/freqtrade.log
       --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
-      --config /freqtrade/user_data/config.json --config /freqtrade/user_data/config.private.json
-      --strategy CombinedBinHClucAndMADV9
+      --config /freqtrade/user_data/config.json
+      --config /freqtrade/user_data/pairlist.json
+      --config /freqtrade/user_data/blacklist.json
+      --config /freqtrade/user_data/config.private.json
+      --config /freqtrade/user_data/config.NostalgiaForInfinityX.json
+      --strategy NostalgiaForInfinityX
