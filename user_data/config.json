@@ -28,7 +28,7 @@
         "order_book_top": 1
     },
     "exchange": {
-        "name": "binance",
+        "name": "",
         "key": "",
         "secret": "",
         "ccxt_config": {"enableRateLimit": true},
