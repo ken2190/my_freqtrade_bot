@@ -2,7 +2,6 @@
 {
     "max_open_trades": 2,
     "stake_amount": "unlimited",
-    "timeframe": "4h",
     "bid_strategy": {
         "price_side": "bid",
         "ask_last_balance": 0,

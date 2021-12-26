@@ -1,7 +1,6 @@
 
 {
     "max_open_trades": 6,
-    "timeframe": "5m",
     "stake_amount": "unlimited",
     "unfilledtimeout": {
         "buy": 15,

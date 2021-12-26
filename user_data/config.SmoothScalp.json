@@ -1,7 +1,7 @@
 
 {
-    "max_open_trades": 2,
-    "stake_amount": "unlimited",
+    "max_open_trades": 60,
+    "stake_amount": "50",
     "bid_strategy": {
         "price_side": "bid",
         "ask_last_balance": 0,
