@@ -1,5 +1,28 @@
 
 {
+    "max_open_trades": 4,
+    "bid_strategy": {
+        "price_side": "ask",
+        "ask_last_balance": 0,
+        "use_order_book": false,
+        "order_book_top": 1,
+        "check_depth_of_market": {
+            "enabled": false,
+            "bids_to_ask_delta": 1
+        }
+    },
+    "ask_strategy": {
+        "price_side": "bid",
+        "use_order_book": true,
+        "order_book_top": 1
+    },
+    "pairlists": [
+        {"method": "StaticPairList"},
+        {
+            "method": "AgeFilter",
+            "min_days_listed": 30
+        }
+    ],
     "exchange": {
         "pair_whitelist": [
             "MATIC/USDT",
@@ -43,8 +66,5 @@
             "DOT/USDT",
             "XRP/USDT"
         ]
-    },
-    "pairlists": [
-        {"method": "StaticPairList"}
-    ]
+    }
 }
