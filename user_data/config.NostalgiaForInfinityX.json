@@ -1,7 +1,6 @@
 
 {
     "max_open_trades": 6,
-    "stake_amount": "unlimited",
     "unfilledtimeout": {
         "buy": 15,
         "sell": 15,
