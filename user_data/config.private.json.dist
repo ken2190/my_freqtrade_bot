@@ -15,5 +15,5 @@
         "jwt_secret_key": "",
         "username": "",
         "password": ""
-    },
+    }
 }
