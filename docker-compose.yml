@@ -27,6 +27,6 @@ services:
       --config /freqtrade/user_data/config.json
       --config /freqtrade/user_data/pairlist.json
       --config /freqtrade/user_data/blacklist.json
-      --config /freqtrade/user_data/config.private.json
       --config /freqtrade/user_data/config.NostalgiaForInfinityX.json
+      --config /freqtrade/user_data/config.private.json
       --strategy NostalgiaForInfinityX
